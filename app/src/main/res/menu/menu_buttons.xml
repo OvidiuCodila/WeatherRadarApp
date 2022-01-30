@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- "Search Button", should appear as action button if possible -->
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@drawable/ic_search"
+        android:title="actionSearch"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"/>
+
+    <!-- "Current location Button", should appear as action button if possible -->
+    <item
+        android:id="@+id/actionCurrentLocation"
+        android:icon="@drawable/ic_location"
+        android:title="actionCurrentLocation"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"/>
+
+    </menu>
